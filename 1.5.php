@@ -10,7 +10,7 @@
         <table>
             <tr>
                 <td>Your name: </td>
-                <td colspan="3"><input type="text" name="name" size="20" maxlength="15" value="<?php echo $_GET['name']; ?>"></td>
+                <td colspan="3"><input type="text" name="name" size="20" maxlength="15" value="<?php echo $_GET['name'] ?? ''; ?>"></td>
             </tr>
             <tr>
                 <td>Date: </td>
